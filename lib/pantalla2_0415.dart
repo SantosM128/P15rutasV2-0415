@@ -7,27 +7,24 @@ class Pantalla2_0415 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla2 Santos 0415"),
-        backgroundColor: Color(0xff000000),
+        title: Text("Pantalla 2 | Santos 0415"),
+        backgroundColor: Color(0xff42abdb),
       ),
       body: Center(
         child: Container(
-          color: Color(0xff077aff),
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            color: Color(0xff8ec8f8),
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                'Card Container 0415',
-                style: TextStyle(fontSize: 30, color: Color(0xff000000)),
-              ),
-            ),
+          color: Color(0xff69b7db),
+          constraints: BoxConstraints(
+            minHeight: 120,
+            minWidth: 200,
+            maxHeight: 320,
+            maxWidth: 320,
+          ),
+          child: Text(
+            'Melanie Santos 0415',
+            style: TextStyle(fontSize: 28),
           ),
         ),
       ),
     );
   } //fin widget
-} //FIN Pantalla2_1027
+} //FIN

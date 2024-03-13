@@ -7,19 +7,20 @@ class Pantalla1_0415 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(" Card P1 Santos0415"),
-        backgroundColor: Color(0xff319d62),
+        title: Text(" Pantalla 1 | Santos 0415"),
+        backgroundColor: Color(0xff5345d2),
       ),
       body: Center(
-        child: Card(
-          elevation: 10,
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-          color: Colors.black,
-          child: Padding(
-            padding: EdgeInsets.all(20),
-            child: Text("Card Santos",
-                style: TextStyle(fontSize: 30, color: Color(0xff505e40))),
+        child: Container(
+          color: Color(0xff7167cd),
+          width: 200,
+          height: 200,
+          padding: EdgeInsets.all(30),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Melanie 0415',
+            style: TextStyle(fontSize: 25, color: Colors.white),
           ),
         ),
       ),
